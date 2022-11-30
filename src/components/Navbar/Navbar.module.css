@@ -1,8 +1,38 @@
 .nav {
-
+    /*display: grid;*/
     grid-area: n;
-    background-color: burlywood;
+    background-color: rgba(52, 45, 61, 1);
+
+    padding: 20px;
 }
-.item {
+
+.item{
+    height: 50px;
     color: white;
+
+    /*text-align: center;*/
+
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+.item a{
+
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition: color .1s linear .1s;
+
+
+}
+
+
+.item a:hover {
+    color: lightgray;
+    transition: color .1s linear;
+
+}
+
+.item a.active{
+    /*text-shadow: 1px 8px 8px rgba(0, 0, 0, 10);*/
+    color: rgba(118, 105, 147, 1);
 }

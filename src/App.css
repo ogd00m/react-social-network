@@ -1,21 +1,28 @@
-.app-wrapper {
-  margin: 0 auto;
-  display: grid;
-  width: 1200px;
 
-  grid-template-areas:
+
+
+.app-wrapper {
+    color: white;
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+    border: 1.5px solid #3F3F3F;
+    grid-template-areas:
   "h h"
   "n c";
 
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  /* grid-gap: 10px; */
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /* grid-gap: 10px; */
 }
 
+.app-wrapper-content {
+    grid-area: c;
+    background-color: rgba(52, 45, 61, 1);
 
+    /*тень сюда неплохо бы*/
 
-
-
+}
 
 
 /*  background-color: #9130FF;*/
